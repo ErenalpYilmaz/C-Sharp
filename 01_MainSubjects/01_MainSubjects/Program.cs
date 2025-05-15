@@ -49,7 +49,7 @@ namespace _01_MainSubjects
             //Console.WriteLine("Adres: {0} / {1}",district,city);
             //Console.WriteLine("------------------------------------------------");
 
-            
+
 
             #endregion
 
@@ -81,6 +81,8 @@ namespace _01_MainSubjects
             //Console.WriteLine("Hamburgerinizin tutari = {0} TL",totalHamburgerPrice);
 
             #endregion
+
+            
 
             Console.Read();
         }
