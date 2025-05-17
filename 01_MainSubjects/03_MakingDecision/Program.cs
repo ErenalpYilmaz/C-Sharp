@@ -156,7 +156,6 @@ namespace _03_MakingDecision
             //}
             #endregion
 
-
             #region Example Project
             //Console.WriteLine("**** C# Boot Camp Restaurant ****");
             //Console.WriteLine();
