@@ -50,4 +50,9 @@ Bu derste `array` ile birden fazla veriyi tek yapıda saklamayı öğrendim 📚
 **Void metotlarla tekrar eden kodları azalttım. Parametreli ve geriye değer döndüren metotlarla hem metin hem sayı işlemleri yaptım 🧩. Sınav sonuçlarını hesaplayıp koşullu dönüşlerle uygulamayı esnek hale getirdim 🎯.**
 **[Proje 8 »](01_MainSubjects/08_Methods/Program.cs)**
 
+## 📀 Proje 9: DatabaseProject – Veri Tabanı Entegrasyonu
+
+Bu projede ADO.NET ile veritabanına bağlanıp verileri listeledim .  `ConfigurationBuilder`, `SqlConnection` ve `SqlDataAdapter` kullanarak modüler bir yapı oluşturdum. Kendimden de bir şeyler katmak istediğim için  `try-catch-finally` ile hataları yöneterek uygulamanın kararlılığını artırdım ve bağlantı ayarlarını `appsettings.json` dosyasından güvenle okudum .
+**[Proje 9 »](01_MainSubjects/09_DatabaseProject/Program.cs);**
+
 
