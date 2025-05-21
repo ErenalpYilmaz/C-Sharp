@@ -78,7 +78,7 @@ namespace _10_DatabaseCrud
             //Update(productId,productName,productPrice,connection);
             #endregion
             Console.Read();
-        }
+        } 
         #region Crud -> Insert | Kategori Tablosu icin gecerlidir.
         public static void Insert(string categoryName, SqlConnection con) // -> Kod tekrarı olmaması için bir Insert Methodu oluşturuldu.
         {
