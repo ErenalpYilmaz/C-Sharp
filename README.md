@@ -55,4 +55,6 @@ Bu derste `array` ile birden fazla veriyi tek yapıda saklamayı öğrendim 📚
 Bu projede ADO.NET ile veritabanına bağlanıp verileri listeledim .  `ConfigurationBuilder`, `SqlConnection` ve `SqlDataAdapter` kullanarak modüler bir yapı oluşturdum. Kendimden de bir şeyler katmak istediğim için  `try-catch-finally` ile hataları yöneterek uygulamanın kararlılığını artırdım ve bağlantı ayarlarını `appsettings.json` dosyasından güvenle okudum .
 **[Proje 9 »](01_MainSubjects/09_DatabaseProject/Program.cs);**
 
+## 📀 Proje 10: DatabaseCrud
 
+Bu projede, `temel CRUD (Create, Read, Update, Delete)` işlemlerini ADO.NET kullanarak geliştirdim. Veritabanı bağlantı bilgilerini güvenlik açısından `appsettings.json` dosyasında saklayıp yapılandırma aracı ile uygulamaya entegre ettim.
