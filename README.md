@@ -53,14 +53,27 @@ Bu derste `array` ile birden fazla veriyi tek yapıda saklamayı öğrendim 📚
 ## 📀 Proje 9: DatabaseProject – Veri Tabanı Entegrasyonu
 
 Bu projede ADO.NET ile veritabanına bağlanıp verileri listeledim .  `ConfigurationBuilder`, `SqlConnection` ve `SqlDataAdapter` kullanarak modüler bir yapı oluşturdum. Kendimden de bir şeyler katmak istediğim için  `try-catch-finally` ile hataları yöneterek uygulamanın kararlılığını artırdım ve bağlantı ayarlarını `appsettings.json` dosyasından güvenle okudum .
-**[Proje 9 »](01_MainSubjects/09_DatabaseCrud/Program.cs);**
+**[Proje 9 »](01_MainSubjects/09_DatabaseCrud/Program.cs)**
 
 ## 📀 Proje 10: DatabaseCrud
 
 Bu projede, `temel CRUD (Create, Read, Update, Delete)` işlemlerini ADO.NET kullanarak geliştirdim. Veritabanı bağlantı bilgilerini güvenlik açısından `appsettings.json` dosyasında saklayıp yapılandırma aracı ile uygulamaya entegre ettim.
-**[Proje 10 »](01_MainSubjects/10_DatabaseCrud/Program.cs);**
+**[Proje 10 »](01_MainSubjects/10_DatabaseCrud/Program.cs)**
 
 ## 📀 Proje 11: OOP
 
 Bu projede `OOP` temelerine `SOLID prensiplerinden Single Responsibility` üzerine bilgi sahibi oldum. Aynı zamanda proje için gerekli `Entity - DataAccess - Business ve Presentation `katmanlarını oluşturdum.
 **[Proje 11 »](CSharpEgitimKampi301/)**
+
+## 📀 Proje 12: Data Access Katmanı ve Context Sınıfı
+
+Bu projede nesne yönelimli programlama (OOP) ve Entity Framework kullanarak dört katmanlı bir mimari (Entity, DataAccess, Business, Presentation) geliştirdim.
+
+`🔗` KampContext sınıfı aracılığıyla `Entity Framework'ün DbSet<>` yapısıyla tablolar tanımladım ve veritabanı ile doğrudan bağlantı kurmasını sağladım.
+
+`📦` Entity katmanında `sınıflar arası ilişkiler` (örneğin, ürün–kategori ve ürün–sipariş ilişkileri) kurarak veri modeli tasarladım.
+
+`🔄` Katmanlar arası doğru referans yönü (Presentation > Business > DataAccess > Entity) kullanarak, bağımlılıkları kontrollü ve modüler bir yapıda yönettim.
+
+`✅` Sonuç olarak, sürdürülebilir, ölçeklenebilir ve okunabilir bir mimariyle profesyonel yazılım geliştirme becerilerimi somutlaştırdım.**[Proje 12 »](CSharpEgitimKampi301/CSharpEgitimKampi301.DataAccessLayer/Context/KampContext.cs)**
+

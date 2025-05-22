@@ -12,6 +12,7 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
         public string CategoryName { get; set; }
     
         public bool CategoryStatus { get; set; }
+        public List<Product> Products { get; set; } // Aynı kategoriye sahip birden fazla ürün olabileceği için çoğul bir yapı kullandık. Code First 1 ' e çok ilişki.
     }
 }
 /*

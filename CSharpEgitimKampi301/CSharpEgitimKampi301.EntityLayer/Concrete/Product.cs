@@ -13,5 +13,8 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
         public int ProductStock { get; set; }
         public decimal ProductPrice { get; set; }
         public string ProductDescription {  get; set; }
+        public int CategoryId { get; set; }
+        public virtual Category Category { get; set; } // Her bir ürünün 1 Kategorisi olacak.O yüzden tekil tanımlandı
+        public List<Order> Orders { get; set; }
     }
 }
