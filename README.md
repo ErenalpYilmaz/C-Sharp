@@ -77,3 +77,16 @@ Bu projede nesne yönelimli programlama (OOP) ve Entity Framework kullanarak dö
 
 `✅` Sonuç olarak, sürdürülebilir, ölçeklenebilir ve okunabilir bir mimariyle profesyonel yazılım geliştirme becerilerimi somutlaştırdım.**[Proje 12 »](CSharpEgitimKampi301/CSharpEgitimKampi301.DataAccessLayer/Context/KampContext.cs)**
 
+## 📀 Proje 13: Generic Interface - Migrations İşlemleri
+
+Bu aşamada, Entity Layer'da tanımladığım sınıfları kullanarak Entity Framework’ün **Code First** yaklaşımı ile SQL veritabanını otomatik olarak oluşturdum.
+
+💡 **Yapılanlar:**
+
+* 🛠️ **Code First** yöntemiyle migration işlemleri gerçekleştirilerek veri tabanı yapısı oluşturuldu.
+* 📁 Data Access Layer içinde `Abstract` klasörü altında **IGenericDal** adında generic bir interface tanımlandı.
+* 🔁 Her bir entity için özel interface’ler oluşturularak `IGenericDal<T>` üzerinden kalıtım sağlandı.
+* 🧩 Bu yapı ile tekrar eden kodlar azaltıldı, sistem daha modüler hale getirildi.
+
+🔧 Bu mimari sayesinde hem **bağımlılık yönetimi** daha etkin hale geldi hem de projenin **bakımı ve genişletilmesi** kolaylaştırıldı.
+**[Proje 13 »](CSharpEgitimKampi301/)**
