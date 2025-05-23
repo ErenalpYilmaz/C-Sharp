@@ -90,3 +90,7 @@ Bu aşamada, Entity Layer'da tanımladığım sınıfları kullanarak Entity Fra
 
 🔧 Bu mimari sayesinde hem **bağımlılık yönetimi** daha etkin hale geldi hem de projenin **bakımı ve genişletilmesi** kolaylaştırıldı.
 **[Proje 13 »](CSharpEgitimKampi301/)**
+
+
+## 📀 Proje 14 - 15
+Bu 2'sinin birleşiminde ORM'in ne olduğu hakkında bilgi sahibi olmakla kalmayıp Entity Framework gibi ORM yapısını da anladım. Aynı zamanda bir form üzerinde `Database First` methodunu kullanarak basit sql sorguları gerekmeden sadece entity framework yardımı ile bir form CRUD projesi hazırladım.
