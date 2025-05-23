@@ -75,7 +75,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(296, 52);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(463, 360);
+            this.dataGridView1.Size = new System.Drawing.Size(562, 360);
             this.dataGridView1.TabIndex = 3;
             // 
             // txtSurname
@@ -159,7 +159,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(872, 450);
             this.Controls.Add(this.btnGetById);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnDelete);

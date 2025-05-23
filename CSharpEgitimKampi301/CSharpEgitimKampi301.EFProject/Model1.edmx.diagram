@@ -6,8 +6,8 @@
     <edmx:Diagrams>
       <Diagram DiagramId="031c4511420b43788542e6cd269b7058" Name="Diagram1">
         <EntityTypeShape EntityType="EgitimKampiEfTravelDBModel.Customer" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="EgitimKampiEfTravelDBModel.Guide" Width="1.5" PointX="0.625" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="EgitimKampiEfTravelDBModel.Location" Width="1.5" PointX="2.625" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="EgitimKampiEfTravelDBModel.Guide" Width="1.5" PointX="0.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EgitimKampiEfTravelDBModel.Location" Width="1.5" PointX="2.75" PointY="0.5" IsExpanded="true" />
         <EntityTypeShape EntityType="EgitimKampiEfTravelDBModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
         <AssociationConnector Association="EgitimKampiEfTravelDBModel.FK_Location_Guide" ManuallyRouted="false" />
         <EntityTypeShape EntityType="EgitimKampiEfTravelDBModel.Admin" Width="1.5" PointX="5" PointY="1.25" />
