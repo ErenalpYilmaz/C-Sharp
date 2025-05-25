@@ -97,6 +97,11 @@ Bu 2'sinin birleşiminde ORM'in ne olduğu hakkında bilgi sahibi olmakla kalmay
 
 ## 📀 Proje 16 - 17 LINQ VE ENTITY FRAMEWORK
 
-C# Eğitim kampı içerisinde geliştirmiş olduğumuz projemizde LİNQ sorguları ve Entity Framework yapısını kullanarak bir proje hazırladık. Bu projede bir seyehat acentası ile ilgili olası istatistikler ürettik.
+C# Eğitim kampı içerisinde geliştirmiş olduğumuz projemizde LİNQ sorguları ve Entity Framework yapısını kullanarak bir proje hazırladık. Bu projede bir seyehat acentası ile ilgili olası istatistikler ürettik. 
 
 ![Ekran Görüntüsü](CSharpEgitimKampi301//img/CSharpEgitimKampi.png)
+
+
+## 📀 Proje 18 
+
+Bir GenericRepository tanımladım. Sonrasında bu sınıf ile tüm entity'ler için ortak CRUD işlemlerini generic olarak gerçekleştirmesini sağladım.

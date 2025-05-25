@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharpEgitimKampi301.DataAccessLayer.Abstract
 {
-    public  interface IProductDal : IEquatable<Product>
+    public  interface IProductDal : IGenericDal<Product>
     {
     }
 }
