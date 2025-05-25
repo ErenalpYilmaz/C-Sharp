@@ -102,6 +102,6 @@ C# Eğitim kampı içerisinde geliştirmiş olduğumuz projemizde LİNQ sorgular
 ![Ekran Görüntüsü](CSharpEgitimKampi301//img/CSharpEgitimKampi.png)
 
 
-## 📀 Proje 18 
+## 📀 Proje 18 - 19
 
-Bir GenericRepository tanımladım. Sonrasında bu sınıf ile tüm entity'ler için ortak CRUD işlemlerini generic olarak gerçekleştirmesini sağladım.
+Bir GenericRepository tanımladım. Sonrasında bu sınıf ile tüm entity'ler için ortak CRUD işlemlerini generic olarak gerçekleştirmesini sağladım. Business katmanı ve birkaç kural eklendi. Form yapısı düzenlendi.
