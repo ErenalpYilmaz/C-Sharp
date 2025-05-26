@@ -106,7 +106,3 @@ C# Eğitim kampı içerisinde geliştirmiş olduğumuz projemizde LİNQ sorgular
 
 Bir GenericRepository tanımladım. Sonrasında bu sınıf ile tüm entity'ler için ortak CRUD işlemlerini generic olarak gerçekleştirmesini sağladım. Business katmanı ve birkaç kural eklendi. Form yapısı düzenlendi.
 
-
-## Proje 20 - 21
-
-Dependency Injection işlemleri konusu ele alındı. Kategori formu düzenlendi.

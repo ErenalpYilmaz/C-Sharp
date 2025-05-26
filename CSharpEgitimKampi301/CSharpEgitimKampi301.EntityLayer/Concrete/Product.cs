@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,5 +17,8 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; } // Her bir ürünün 1 Kategorisi olacak.O yüzden tekil tanımlandı
         public List<Order> Orders { get; set; }
+
+        //[NotMapped]
+        //public string CategoryName { get; set; }
     }
 }
