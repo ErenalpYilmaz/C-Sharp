@@ -106,3 +106,8 @@ C# Eğitim kampı içerisinde geliştirmiş olduğumuz projemizde LİNQ sorgular
 
 Bir GenericRepository tanımladım. Sonrasında bu sınıf ile tüm entity'ler için ortak CRUD işlemlerini generic olarak gerçekleştirmesini sağladım. Business katmanı ve birkaç kural eklendi. Form yapısı düzenlendi.
 
+
+## CSharpEgitimKampi601
+
+Form üzerinde MongoDB kullanarak CRUD işlemleri gerçekleştirdik. Bununla birlikte mssql dışında bir veritabanı deneyimi elde etmiş oldum.
+#### -> PostgreSQL de CRUD işlemleri de projeye eklendi.
